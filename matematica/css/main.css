@@ -49,8 +49,25 @@ table {
 
 /*-------------------fim do reset-----------*/
 
+body {
+	background-color: #313131;
+	display: flex;
+	flex-direction: column;
+}
+
 .upSection{
 	display: flex;
+	justify-self: center;
+    padding-top: 2%;
+    margin: auto;
+}
+
+@media screen and (max-width: 500px){
+    .quadro {
+        border: 2px solid white;
+        width: 95vw;
+        
+    }
 }
 
 .quadro{
@@ -58,18 +75,45 @@ table {
 	align-self: center;
 	border: 2px solid black;
 }
-h1{
-	display: block;
-	margin: 0 8px;
+
+.downSection {
+	margin: auto;
+	order: 1;
+	justify-self: center;
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color:white;
+	border-radius: 3px;
+	border: 2px solid #1a1a1a;
+	padding: 1%;
+	justify-content: center;
+	
 }
 
-.funcao{
-	margin:  8px 0 0 8px;
+h1{
+	font-size: 1rem;
+	display: block;
+	margin: 0 8px;
+	line-height: 150%;
 }
+
 
 #btnGraf, #btnLimpar{
 	margin: 0 8px
 }
+
+@media screen and (max-width: 500px){
+	h1 {
+		font-size: .91rem;
+	}
+
+	.funcao, #btnGraf, #btnLimpar {
+		margin: 4px 2px;
+		order: 2;
+	}
+}
+
 
 
 

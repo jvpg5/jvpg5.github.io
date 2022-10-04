@@ -50,7 +50,7 @@ table {
 /*-------------------fim do reset-----------*/
 
 body {
-    background-color: rgb(49, 49, 49);
+    background-color: #313131;
 }
 
 main {
@@ -63,11 +63,11 @@ main {
     padding-top: 2%;
     margin: auto;
 }
+
 @media screen and (max-width: 500px){
     #quadro {
         border: 2px solid white;
-        
-            width: 95vw;
+        width: 95vw;
         
     }
 }

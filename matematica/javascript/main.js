@@ -5,6 +5,9 @@ const btnGraf = document.getElementById("btnGraf")
 const btnLimpar = document.getElementById("btnLimpar")
 
 function base(){
+    ctx.fillStyle = "#ffffff"
+    ctx.fillRect(0, 0, 600, 600)
+
     ctx.lineWidth = 1
     ctx.beginPath()
     ctx.moveTo(300,0)
