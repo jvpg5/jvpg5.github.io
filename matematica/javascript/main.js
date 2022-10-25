@@ -47,7 +47,7 @@ function limparQuadro() {
 
 btnGraf.onclick = function (){
     let cor = document.querySelector('.cor').value
-    let funcaoStr = document.querySelector('.funcao').value
+    let funcaoStr = document.querySelector('.funcao').value.toLowerCase()
     let y
     let x = -30
     let cx = -1
