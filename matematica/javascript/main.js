@@ -45,9 +45,22 @@ function limparQuadro() {
     base()
 }
 
+function modul(str){
+    while(true){
+    if(str.includes("|")){
+        str = str.replace("|", "Math.abs(")
+        str = str.replace("|", ")")
+        console.log(str)
+    }else{
+        break;
+    }}
+    return str
+}
+
 btnGraf.onclick = function (){
     let cor = document.querySelector('.cor').value
     let funcaoStr = document.querySelector('.funcao').value.toLowerCase()
+    funcaoStr = modul(funcaoStr)
     let y
     let x = -30
     let cx = -1
