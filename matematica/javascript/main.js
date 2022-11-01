@@ -59,7 +59,7 @@ function modul(str){
 
 btnGraf.onclick = function (){
     let cor = document.querySelector('.cor').value
-    let funcaoStr = document.querySelector('.funcao').value.toLowerCase()
+    let funcaoStr = document.querySelector('.funcao').value// .toLowerCase()
     funcaoStr = modul(funcaoStr)
     let y
     let x = -30
