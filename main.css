@@ -70,4 +70,11 @@ a{
     margin: 25px;
     text-decoration: none;
     color: white;
+    padding: 5px;
+    border: 2px white solid;
+}
+
+a:hover {
+    color: gray;
+    background-color: white;
 }
