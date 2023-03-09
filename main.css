@@ -70,11 +70,17 @@ a{
     margin: 25px;
     text-decoration: none;
     color: white;
-    padding: 5px;
-    border: 2px white solid;
 }
 
-a:hover {
-    color: gray;
-    background-color: white;
+.a_container{
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 3px; 
+}
+
+.a_container:hover{
+    background-color: blueviolet;
+    border-color:aqua;
+    transition: all .5s;
 }
